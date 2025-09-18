@@ -18,7 +18,7 @@ function Sortear() {
 
     const result = Math.floor(Math.random() * (max - min + 1)) + min;
 
-    drawnNumber.innerHTML = `O ganhador foi o número ${result}`;
+    drawnNumber.innerHTML = `<span>${result}</span>`;
 }
 
 

@@ -1,0 +1,5 @@
+Roxo Escuro: #5C2D91
+
+Roxo Médio: #8D4ED7
+
+Roxo Claro/Magenta: #D35AF2

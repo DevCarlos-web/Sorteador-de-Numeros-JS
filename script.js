@@ -11,6 +11,11 @@ function Sortear() {
         return; 
     }
 
+    if (max == min) {
+        alert("Coloque pelo menos dois valores diferentes!");
+        return; 
+    }
+
     const result = Math.floor(Math.random() * (max - min + 1)) + min;
 
     drawnNumber.innerHTML = `O ganhador foi o número ${result}`;

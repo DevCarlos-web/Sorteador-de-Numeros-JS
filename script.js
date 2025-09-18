@@ -29,3 +29,4 @@ function Sortear() {
 
 
 buttonSorteio.addEventListener('click', Sortear)
+

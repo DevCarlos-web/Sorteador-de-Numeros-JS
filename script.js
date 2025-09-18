@@ -6,6 +6,11 @@ function Sortear() {
     const min = Math.ceil(document.querySelector('.min').value)
     const max = Math.floor(document.querySelector('.max').value)
 
+    if (document.querySelector('.min').value === "" || document.querySelector('.max').value === "") {
+        alert("Por favor, digite os valores mínimo e máximo.");
+        return;
+    }
+
     if (max < min) {
         alert("O valor MÁXIMO deve ser maior que o valor MÍNIMO.");
         return;

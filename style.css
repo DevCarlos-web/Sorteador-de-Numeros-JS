@@ -13,14 +13,12 @@ body {
     background: linear-gradient(to bottom, #fc8bbc, #dccdec, #8c50cfa6);
 }
 
-
 main {
     justify-content: center;
     width: 100vw;
     height: 100vh;
     align-items: center;
     background-color: transparent;
-
 }
 
 .div-img-logo {
@@ -84,93 +82,26 @@ p {
     cursor: pointer;
 }
 
-/*Responsividade*/
-
-@media screen and (min-width: 430px) {
-
+@media screen and (max-width: 431px) {
     .img-logo {
-        width: 312px;
-        justify-content: center;
+        width: 320px;
     }
 
     .div-img-logo {
         margin: 0;
         padding: 0;
-        margin-top: 180px;
-
-    }
-
-    p {
-        text-align: center;
-    }
-}
-
-@media screen and (min-width: 390px) {
-
-    .img-logo {
-        width: 312px;
-        justify-content: center;
-    }
-
-    .div-img-logo {
-        margin: 0;
-        padding: 0;
-        margin-top: 180px;
-
+        margin-top: 120px;
     }
 
     p {
         text-align: center;
         font-size: 23px;
     }
-}
-
-@media screen and (min-width: 375px) {
-
-    .img-logo {
-        width: 312px;
-        justify-content: center;
-    }
-
-    .div-img-logo {
-        margin: 0;
-        padding: 0;
-        margin-top: 140px;
-
-    }
-
-    p {
-        text-align: center;
-    }
 
     .min,
     .max {
         height: 40px;
         width: 110px;
     }
-}
 
-@media screen and (min-width: 360px) {
-
-    .img-logo {
-        width: 312px;
-        justify-content: center;
-    }
-
-    .div-img-logo {
-        margin: 0;
-        padding: 0;
-        margin-top: 140px;
-
-    }
-
-    p {
-        text-align: center;
-    }
-
-    .min,
-    .max {
-        height: 40px;
-        width: 110px;
-    }
 }

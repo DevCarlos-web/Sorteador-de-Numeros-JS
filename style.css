@@ -17,7 +17,7 @@ body {
 main {
     display: inline-block;
     justify-content: center;
-    width: 600px;
+    width: 100vw;
     height: 100vh;
     align-items: center;
     background-color: transparent;
@@ -91,5 +91,9 @@ p {
 
     .img-logo {
         width: 312px;
+    }
+    
+    p {
+        text-align: center;
     }
 }

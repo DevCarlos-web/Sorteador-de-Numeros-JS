@@ -8,12 +8,12 @@ function Sortear() {
 
     if (max < min) {
         alert("O valor MÁXIMO deve ser maior que o valor MÍNIMO.");
-        return; 
+        return;
     }
 
     if (max == min) {
         alert("Coloque pelo menos dois valores diferentes!");
-        return; 
+        return;
     }
 
     const result = Math.floor(Math.random() * (max - min + 1)) + min;
